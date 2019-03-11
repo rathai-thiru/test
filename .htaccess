@@ -1,3 +1,5 @@
 RewriteEngine On
 RewriteRule ^(.*)$ public/$1
 php_value date.timezone 'Asia/Singapore'
+
+

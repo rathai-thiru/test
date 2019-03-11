@@ -25,7 +25,7 @@ services:
       - /usr/bin
     environment:
       - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=design
+      - MYSQL_DATABASE=sampledb
       - MYSQL_USER=root
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
