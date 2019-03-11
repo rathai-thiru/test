@@ -7,3 +7,4 @@ use SilverStripe\Security\Member;
 $validator = PasswordValidator::create();
 // Settings are registered via Injector configuration - see passwords.yml in framework
 Member::set_password_validator($validator);
+ini_set('date.timezone', 'Asia/Singapore');
